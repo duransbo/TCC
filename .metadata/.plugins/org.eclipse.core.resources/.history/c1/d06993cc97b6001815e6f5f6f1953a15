@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:css="http:///schemas/css/_RdgZoLaWEeiCucsoIHG39A/15" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/css/_RdgZoLaWEeiCucsoIHG39A/15 /tcc/css.profile.uml#_Rdjc8LaWEeiCucsoIHG39A">
+  <uml:Model xmi:id="_omx0ALYiEeiH_59IukoaOg" name="reset">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_ouFV4LYiEeiH_59IukoaOg">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_pH3H0LYiEeiH_59IukoaOg" name="i"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_QZ-8ALYmEeiH_59IukoaOg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VBXiBbaWEeiCucsoIHG39A" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VBXiBraWEeiCucsoIHG39A" key="Version" value="0.0.16"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VBXiB7aWEeiCucsoIHG39A" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VBXiCLaWEeiCucsoIHG39A" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VBXiCbaWEeiCucsoIHG39A" key="Date" value="2018-09-12"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VBXiCraWEeiCucsoIHG39A" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QZ-8AbYmEeiH_59IukoaOg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="/tcc/css.profile.uml#_Rdjc8LaWEeiCucsoIHG39A"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="/tcc/css.profile.uml#_hakwkCPpEeibvcGHFL70Mg"/>
+    </profileApplication>
+  </uml:Model>
+  <css:Block xmi:id="_Sy234LYmEeiH_59IukoaOg" align="center" transform="uppercase" base_Class="_pH3H0LYiEeiH_59IukoaOg" display="flex" box="border">
+    <dimension xmi:type="css:Measure" xmi:id="_ACfjALaQEeiCucsoIHG39A">
+      <Ini xmi:type="css:Dimension" xmi:id="_A2LCsLaQEeiCucsoIHG39A">
+        <width xmi:type="css:Value" xmi:id="_EoihELaQEeiCucsoIHG39A" number="100.0" unity="percent"/>
+      </Ini>
+    </dimension>
+    <border xmi:type="css:Border" xmi:id="_SvFlALaQEeiCucsoIHG39A">
+      <width xmi:type="css:Side" xmi:id="_VdE1QLaQEeiCucsoIHG39A">
+        <top xmi:type="css:Value" xmi:id="_XXU7cLaQEeiCucsoIHG39A" unity="px"/>
+        <left xmi:type="css:Value" xmi:id="_XssHcLaQEeiCucsoIHG39A" unity="px"/>
+        <right xmi:type="css:Value" xmi:id="_YFoL4LaQEeiCucsoIHG39A" unity="px"/>
+        <bottom xmi:type="css:Value" xmi:id="_YNZn0LaQEeiCucsoIHG39A" unity="px"/>
+      </width>
+    </border>
+    <margin xmi:type="css:Side" xmi:id="_CvpQULaREeiCucsoIHG39A">
+      <top xmi:type="css:Value" xmi:id="_C5Cc4LaREeiCucsoIHG39A" unity="px"/>
+      <left xmi:type="css:Value" xmi:id="_DGS1wLaREeiCucsoIHG39A" unity="px"/>
+      <right xmi:type="css:Value" xmi:id="_DBw7ELaREeiCucsoIHG39A" unity="px"/>
+      <bottom xmi:type="css:Value" xmi:id="_DMZdwLaREeiCucsoIHG39A" unity="px"/>
+    </margin>
+    <position xmi:type="css:Position" xmi:id="_LhReALaREeiCucsoIHG39A" type="relative"/>
+    <padding xmi:type="css:Side" xmi:id="_WLQmYLaPEeiCucsoIHG39A">
+      <top xmi:type="css:Value" xmi:id="_WXnAULaPEeiCucsoIHG39A" unity="px"/>
+      <left xmi:type="css:Value" xmi:id="_WlcA8LaPEeiCucsoIHG39A" unity="px"/>
+      <right xmi:type="css:Value" xmi:id="_Wsx_ELaPEeiCucsoIHG39A" unity="px"/>
+      <bottom xmi:type="css:Value" xmi:id="_WyK1YLaPEeiCucsoIHG39A" unity="px"/>
+    </padding>
+    <flex xmi:type="css:Flex" xmi:id="_5I7DILaPEeiCucsoIHG39A" wrap="wrap" items="start" content="start"/>
+  </css:Block>
+</xmi:XMI>

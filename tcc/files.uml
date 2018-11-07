@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:css="http:///schemas/css/_faVFQMucEeipn5oiYGENIQ/27" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/css/_faVFQMucEeipn5oiYGENIQ/27 /tcc/css.profile.uml#_fadoIMucEeipn5oiYGENIQ">
+  <uml:Model xmi:id="_6pZJsL0ZEeiNkcfrWEA9sw" name="files">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_7EDscL0ZEeiNkcfrWEA9sw">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_9SujcL0ZEeiNkcfrWEA9sw" name="Reset"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_QvG6ML33Eei3qe1aZTE9LA" name="Template">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1xF_Ir33Eei3qe1aZTE9LA" name="footer" type="_Y1dWQL33Eei3qe1aZTE9LA" association="_1xExAL33Eei3qe1aZTE9LA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1xF_I733Eei3qe1aZTE9LA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1xF_JL33Eei3qe1aZTE9LA" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_2kdVw733Eei3qe1aZTE9LA" name="header" type="_UzNo0L33Eei3qe1aZTE9LA" association="_2kdVwL33Eei3qe1aZTE9LA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2kd80L33Eei3qe1aZTE9LA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2kd80b33Eei3qe1aZTE9LA" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_3WIqUL33Eei3qe1aZTE9LA" name="page" type="_nhHSYL33Eei3qe1aZTE9LA" association="_3WIDQL33Eei3qe1aZTE9LA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3WIqUb33Eei3qe1aZTE9LA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3WJRYL33Eei3qe1aZTE9LA" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_UzNo0L33Eei3qe1aZTE9LA" name="Header"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Y1dWQL33Eei3qe1aZTE9LA" name="Footer"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nhHSYL33Eei3qe1aZTE9LA" name="Page"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1xExAL33Eei3qe1aZTE9LA" memberEnd="_1xF_Ir33Eei3qe1aZTE9LA _1xGmML33Eei3qe1aZTE9LA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1xF_IL33Eei3qe1aZTE9LA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1xF_Ib33Eei3qe1aZTE9LA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_1xGmML33Eei3qe1aZTE9LA" name="template" type="_QvG6ML33Eei3qe1aZTE9LA" association="_1xExAL33Eei3qe1aZTE9LA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_2kdVwL33Eei3qe1aZTE9LA" memberEnd="_2kdVw733Eei3qe1aZTE9LA _2kd80r33Eei3qe1aZTE9LA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2kdVwb33Eei3qe1aZTE9LA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2kdVwr33Eei3qe1aZTE9LA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_2kd80r33Eei3qe1aZTE9LA" name="template" type="_QvG6ML33Eei3qe1aZTE9LA" association="_2kdVwL33Eei3qe1aZTE9LA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_3WIDQL33Eei3qe1aZTE9LA" memberEnd="_3WIqUL33Eei3qe1aZTE9LA _3WJRYb33Eei3qe1aZTE9LA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3WIDQb33Eei3qe1aZTE9LA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3WIDQr33Eei3qe1aZTE9LA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_3WJRYb33Eei3qe1aZTE9LA" name="template" type="_QvG6ML33Eei3qe1aZTE9LA" association="_3WIDQL33Eei3qe1aZTE9LA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_4DI6QL33Eei3qe1aZTE9LA" name="Home">
+      <generalization xmi:type="uml:Generalization" xmi:id="__hwn8L33Eei3qe1aZTE9LA" general="_nhHSYL33Eei3qe1aZTE9LA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_IBLrUL34Eei3qe1aZTE9LA" name="Artigo">
+      <generalization xmi:type="uml:Generalization" xmi:id="_PhKD4L34Eei3qe1aZTE9LA" general="_nhHSYL33Eei3qe1aZTE9LA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_A1WSMMKXEeiU-J2K3IPxpQ" name="ListaDeArtigos">
+      <generalization xmi:type="uml:Generalization" xmi:id="_HEdf0MKXEeiU-J2K3IPxpQ" general="_nhHSYL33Eei3qe1aZTE9LA"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_7Bh84L0ZEeiNkcfrWEA9sw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_M9LlQMzgEeiP3Oj3lNPrvQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_M9LlQczgEeiP3Oj3lNPrvQ" key="Version" value="0.0.28"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_M9LlQszgEeiP3Oj3lNPrvQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_M9LlQ8zgEeiP3Oj3lNPrvQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_M9LlRMzgEeiP3Oj3lNPrvQ" key="Date" value="2018-10-09"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_M9LlRczgEeiP3Oj3lNPrvQ" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7Bh84b0ZEeiNkcfrWEA9sw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="/tcc/css.profile.uml#_fadoIMucEeipn5oiYGENIQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="/tcc/css.profile.uml#_hakwkCPpEeibvcGHFL70Mg"/>
+    </profileApplication>
+  </uml:Model>
+  <css:File xmi:id="_8sZZ0L32Eei3qe1aZTE9LA" path="reset.uml" base_Class="_9SujcL0ZEeiNkcfrWEA9sw"/>
+  <css:File xmi:id="_SU060L33Eei3qe1aZTE9LA" path="template.uml" base_Class="_QvG6ML33Eei3qe1aZTE9LA"/>
+  <css:File xmi:id="_XBp2UL33Eei3qe1aZTE9LA" path="header.uml" base_Class="_UzNo0L33Eei3qe1aZTE9LA"/>
+  <css:File xmi:id="_aeaREL33Eei3qe1aZTE9LA" path="footer.uml" base_Class="_Y1dWQL33Eei3qe1aZTE9LA"/>
+  <css:File xmi:id="_qW3XgL33Eei3qe1aZTE9LA" path="" base_Class="_nhHSYL33Eei3qe1aZTE9LA"/>
+  <css:File xmi:id="_7D4HYL33Eei3qe1aZTE9LA" path="home.uml" base_Class="_4DI6QL33Eei3qe1aZTE9LA"/>
+  <css:File xmi:id="_TNqx4L34Eei3qe1aZTE9LA" path="artigo.uml" base_Class="_IBLrUL34Eei3qe1aZTE9LA"/>
+  <css:File xmi:id="_EZnqMMKXEeiU-J2K3IPxpQ" path="lista-de-artigos.uml" base_Class="_A1WSMMKXEeiU-J2K3IPxpQ"/>
+</xmi:XMI>

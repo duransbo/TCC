@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:css="http:///schemas/css/_faVFQMucEeipn5oiYGENIQ/27" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/css/_faVFQMucEeipn5oiYGENIQ/27 /tcc/css.profile.uml#_fadoIMucEeipn5oiYGENIQ">
+  <uml:Model xmi:id="_HswfULepEei1WcO5PNJaPw" name="footer">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_H2QZkLepEei1WcO5PNJaPw">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_JAuBkLepEei1WcO5PNJaPw" name="BodyFooter"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_H1wqULepEei1WcO5PNJaPw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OMYWEMudEeipn5oiYGENIQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OMYWEcudEeipn5oiYGENIQ" key="Version" value="0.0.28"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OMYWEsudEeipn5oiYGENIQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OMYWE8udEeipn5oiYGENIQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OMYWFMudEeipn5oiYGENIQ" key="Date" value="2018-10-09"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OMYWFcudEeipn5oiYGENIQ" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_H1wqUbepEei1WcO5PNJaPw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="/tcc/css.profile.uml#_fadoIMucEeipn5oiYGENIQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="/tcc/css.profile.uml#_hakwkCPpEeibvcGHFL70Mg"/>
+    </profileApplication>
+  </uml:Model>
+  <css:Block xmi:id="_LvJ9wLepEei1WcO5PNJaPw" base_Class="_JAuBkLepEei1WcO5PNJaPw">
+    <dimension xmi:type="css:Measure" xmi:id="_M8G5ELepEei1WcO5PNJaPw">
+      <Ini xmi:type="css:Dimension" xmi:id="_NIqHULepEei1WcO5PNJaPw">
+        <height xmi:type="css:Value" xmi:id="_NoSCkLepEei1WcO5PNJaPw" number="50.0" unity="px"/>
+      </Ini>
+    </dimension>
+    <background xmi:type="css:Background" xmi:id="_P6sVwMJMEeiU-J2K3IPxpQ">
+      <image>../image/logo.png</image>
+      <repeat xmi:type="css:Repeat" xmi:id="_KlkOsMJNEeiU-J2K3IPxpQ" case="no"/>
+      <size xmi:type="css:Dimension" xmi:id="_TXohQMJNEeiU-J2K3IPxpQ">
+        <width xmi:type="css:Value" xmi:id="_TXohQcJNEeiU-J2K3IPxpQ" unity="auto"/>
+        <height xmi:type="css:Value" xmi:id="_TXohQsJNEeiU-J2K3IPxpQ" number="60.0" unity="percent"/>
+      </size>
+      <position xmi:type="css:Move" xmi:id="_MXwlEMJNEeiU-J2K3IPxpQ">
+        <top xmi:type="css:Value" xmi:id="_NcnUUMJNEeiU-J2K3IPxpQ" number="50.0" unity="percent"/>
+        <left xmi:type="css:Value" xmi:id="_Nk6UsMJNEeiU-J2K3IPxpQ" number="50.0" unity="percent"/>
+      </position>
+    </background>
+  </css:Block>
+</xmi:XMI>

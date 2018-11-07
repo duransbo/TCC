@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:css="http:///schemas/css/_faVFQMucEeipn5oiYGENIQ/27" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/css/_faVFQMucEeipn5oiYGENIQ/27 /tcc/css.profile.uml#_fadoIMucEeipn5oiYGENIQ">
+  <uml:Model xmi:id="_WDlwELerEei1WcO5PNJaPw" name="home">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_WNWwELerEei1WcO5PNJaPw">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_npsEELerEei1WcO5PNJaPw" name="Intro"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_0ru-ELerEei1WcO5PNJaPw" name="IntroInvite"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_toXDQMJyEeiU-J2K3IPxpQ" name="Blog"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_pn0CIMJ2EeiU-J2K3IPxpQ" name="BlogTitle"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1PNjEMJ2EeiU-J2K3IPxpQ" name="BlogArticles"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Dr4oAMJ3EeiU-J2K3IPxpQ" name="BlogArticle"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_yKjp0MJ3EeiU-J2K3IPxpQ" name="BlogArticleLink"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WWG2AMJ4EeiU-J2K3IPxpQ" name="BlogInvite"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_WMyIULerEei1WcO5PNJaPw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z0hmoMueEeipn5oiYGENIQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_z0hmocueEeipn5oiYGENIQ" key="Version" value="0.0.28"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_z0hmosueEeipn5oiYGENIQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_z0hmo8ueEeipn5oiYGENIQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_z0hmpMueEeipn5oiYGENIQ" key="Date" value="2018-10-09"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_z0hmpcueEeipn5oiYGENIQ" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WMyIUberEei1WcO5PNJaPw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="/tcc/css.profile.uml#_fadoIMucEeipn5oiYGENIQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="/tcc/css.profile.uml#_hakwkCPpEeibvcGHFL70Mg"/>
+    </profileApplication>
+  </uml:Model>
+  <css:Block xmi:id="_r40-ALerEei1WcO5PNJaPw" base_Class="_npsEELerEei1WcO5PNJaPw">
+    <background xmi:type="css:Background" xmi:id="_tMRi4LerEei1WcO5PNJaPw">
+      <color xmi:type="css:Color" xmi:id="_uKpPoLerEei1WcO5PNJaPw" x="efefef" y="" z="" case="hexa"/>
+    </background>
+  </css:Block>
+  <css:Block xmi:id="_43PVMLerEei1WcO5PNJaPw" align="center" base_Class="_0ru-ELerEei1WcO5PNJaPw" display="flex">
+    <color xmi:type="css:Color" xmi:id="_nO6N4MJyEeiU-J2K3IPxpQ" x="fff" case="hexa"/>
+    <dimension xmi:type="css:Measure" xmi:id="_K--WoLesEei1WcO5PNJaPw">
+      <Ini xmi:type="css:Dimension" xmi:id="_LVXdYLesEei1WcO5PNJaPw">
+        <width xmi:type="css:Value" xmi:id="_MKCbkLesEei1WcO5PNJaPw" number="100.0" unity="percent"/>
+      </Ini>
+    </dimension>
+    <padding xmi:type="css:Side" xmi:id="_6_FygLerEei1WcO5PNJaPw">
+      <top xmi:type="css:Value" xmi:id="_7eMwYLerEei1WcO5PNJaPw" number="10.0" unity="px"/>
+      <left xmi:type="css:Value" xmi:id="_7jWWILerEei1WcO5PNJaPw" number="20.0" unity="px"/>
+      <right xmi:type="css:Value" xmi:id="_7oFsMLerEei1WcO5PNJaPw" number="20.0" unity="px"/>
+      <bottom xmi:type="css:Value" xmi:id="_7t9qsLerEei1WcO5PNJaPw" number="10.0" unity="px"/>
+    </padding>
+    <background xmi:type="css:Background" xmi:id="_GdfIcLesEei1WcO5PNJaPw">
+      <color xmi:type="css:Color" xmi:id="_Gl42gLesEei1WcO5PNJaPw" x="31ab86" case="hexa"/>
+    </background>
+    <flex xmi:type="css:Flex" xmi:id="_DZHYgLesEei1WcO5PNJaPw" justify="center"/>
+  </css:Block>
+  <css:Block xmi:id="_UUJXkMJzEeiU-J2K3IPxpQ" base_Class="_toXDQMJyEeiU-J2K3IPxpQ">
+    <background xmi:type="css:Background" xmi:id="_mgXwEMJ2EeiU-J2K3IPxpQ">
+      <image>../image/texture.jpg</image>
+    </background>
+  </css:Block>
+  <css:Text xmi:id="_sRgoQMJ2EeiU-J2K3IPxpQ" base_Class="_pn0CIMJ2EeiU-J2K3IPxpQ">
+    <color xmi:type="css:Color" xmi:id="_tB0D0MJ2EeiU-J2K3IPxpQ" x="255" y="170" z="130" case="rgb"/>
+  </css:Text>
+  <css:Block xmi:id="_75bYUMJ2EeiU-J2K3IPxpQ" base_Class="_1PNjEMJ2EeiU-J2K3IPxpQ">
+    <flex xmi:type="css:Flex" xmi:id="_878lQMJ2EeiU-J2K3IPxpQ" justify="between" items="stretch"/>
+  </css:Block>
+  <css:Block xmi:id="_IrofgMJ3EeiU-J2K3IPxpQ" base_Class="_Dr4oAMJ3EeiU-J2K3IPxpQ">
+    <color xmi:type="css:Color" xmi:id="_CLNs8OBnEeiN87BuOAZv4A" x="fff" case="hexa"/>
+    <border xmi:type="css:Border" xmi:id="_v3eP0OBmEeiN87BuOAZv4A">
+      <width xmi:type="css:Side" xmi:id="_wHkhUOBmEeiN87BuOAZv4A">
+        <top xmi:type="css:Value" xmi:id="_0IziIOBmEeiN87BuOAZv4A" number="5.0" unity="px"/>
+        <left xmi:type="css:Value" xmi:id="_0XHD4OBmEeiN87BuOAZv4A" number="5.0" unity="px"/>
+        <right xmi:type="css:Value" xmi:id="_0cesEOBmEeiN87BuOAZv4A" number="5.0" unity="px"/>
+        <bottom xmi:type="css:Value" xmi:id="_0icKIOBmEeiN87BuOAZv4A" number="5.0" unity="px"/>
+      </width>
+      <style xmi:type="css:Style" xmi:id="_8E_8oOBmEeiN87BuOAZv4A" case="solid"/>
+      <color xmi:type="css:Color" xmi:id="__JvgAOBmEeiN87BuOAZv4A" x="fff" case="hexa"/>
+    </border>
+    <margin xmi:type="css:Side" xmi:id="__9JS4OBmEeiN87BuOAZv4A">
+      <top xmi:type="css:Value" xmi:id="_ALAIsOBnEeiN87BuOAZv4A" number="25.0" unity="px"/>
+    </margin>
+    <background xmi:type="css:Background" xmi:id="_PiNVwMJ3EeiU-J2K3IPxpQ">
+      <size xmi:type="css:Dimension" xmi:id="_W1evEMJ3EeiU-J2K3IPxpQ">
+        <width xmi:type="css:Value" xmi:id="_W1evEcJ3EeiU-J2K3IPxpQ" number="100.0" unity="percent"/>
+        <height xmi:type="css:Value" xmi:id="_W1evEsJ3EeiU-J2K3IPxpQ" number="100.0" unity="percent"/>
+      </size>
+      <position xmi:type="css:Move" xmi:id="_MLG6gMugEeipn5oiYGENIQ">
+        <top xmi:type="css:Value" xmi:id="_OWXRIMugEeipn5oiYGENIQ" number="50.0" unity="percent"/>
+        <left xmi:type="css:Value" xmi:id="_OeSeEMugEeipn5oiYGENIQ" number="50.0" unity="percent"/>
+      </position>
+    </background>
+  </css:Block>
+  <css:Block xmi:id="_4VgJIMJ3EeiU-J2K3IPxpQ" align="center" base_Class="_yKjp0MJ3EeiU-J2K3IPxpQ" display="block" box="border">
+    <dimension xmi:type="css:Measure" xmi:id="_Iuz54MJ4EeiU-J2K3IPxpQ">
+      <Ini xmi:type="css:Dimension" xmi:id="_JF49IMJ4EeiU-J2K3IPxpQ">
+        <width xmi:type="css:Value" xmi:id="_JhWxIMJ4EeiU-J2K3IPxpQ" number="100.0" unity="percent"/>
+        <height xmi:type="css:Value" xmi:id="_J30JUMJ4EeiU-J2K3IPxpQ" number="100.0" unity="percent"/>
+      </Ini>
+    </dimension>
+    <padding xmi:type="css:Side" xmi:id="_6ercIMJ3EeiU-J2K3IPxpQ">
+      <top xmi:type="css:Value" xmi:id="_6nc9oMJ3EeiU-J2K3IPxpQ" number="30.0" unity="px"/>
+      <left xmi:type="css:Value" xmi:id="_6tmo8MJ3EeiU-J2K3IPxpQ" number="30.0" unity="px"/>
+      <right xmi:type="css:Value" xmi:id="_7XdeQMJ3EeiU-J2K3IPxpQ" number="30.0" unity="px"/>
+      <bottom xmi:type="css:Value" xmi:id="_7ctKoMJ3EeiU-J2K3IPxpQ" number="30.0" unity="px"/>
+    </padding>
+    <background xmi:type="css:Background" xmi:id="_AnwTMMJ4EeiU-J2K3IPxpQ">
+      <color xmi:type="css:Color" xmi:id="_A1xhEMJ4EeiU-J2K3IPxpQ" x="18" y="18" z="18" a="0.8" case="rgb"/>
+    </background>
+  </css:Block>
+  <css:Block xmi:id="_kO81IMJ4EeiU-J2K3IPxpQ" align="center" base_Class="_WWG2AMJ4EeiU-J2K3IPxpQ" display="flex">
+    <color xmi:type="css:Color" xmi:id="_ETHVMMJ5EeiU-J2K3IPxpQ" x="fff" case="hexa"/>
+    <dimension xmi:type="css:Measure" xmi:id="_6x42kMJ4EeiU-J2K3IPxpQ">
+      <Ini xmi:type="css:Dimension" xmi:id="_67kXAMJ4EeiU-J2K3IPxpQ">
+        <width xmi:type="css:Value" xmi:id="_8JDd0MJ4EeiU-J2K3IPxpQ" number="100.0" unity="percent"/>
+      </Ini>
+    </dimension>
+    <margin xmi:type="css:Side" xmi:id="__HEHEMJ4EeiU-J2K3IPxpQ">
+      <top xmi:type="css:Value" xmi:id="__UUf8MJ4EeiU-J2K3IPxpQ" number="30.0" unity="px"/>
+    </margin>
+    <padding xmi:type="css:Side" xmi:id="_mN3_8MJ4EeiU-J2K3IPxpQ">
+      <top xmi:type="css:Value" xmi:id="_mbwD4MJ4EeiU-J2K3IPxpQ" number="10.0" unity="px"/>
+      <left xmi:type="css:Value" xmi:id="_mf_qsMJ4EeiU-J2K3IPxpQ" number="20.0" unity="px"/>
+      <right xmi:type="css:Value" xmi:id="_m7giAMJ4EeiU-J2K3IPxpQ" number="20.0" unity="px"/>
+      <bottom xmi:type="css:Value" xmi:id="_nF2w0MJ4EeiU-J2K3IPxpQ" number="10.0" unity="px"/>
+    </padding>
+    <background xmi:type="css:Background" xmi:id="_vcUFcMJ4EeiU-J2K3IPxpQ">
+      <color xmi:type="css:Color" xmi:id="_vqJGEMJ4EeiU-J2K3IPxpQ" x="31ab86" case="hexa"/>
+    </background>
+    <flex xmi:type="css:Flex" xmi:id="_0e-HAMJ4EeiU-J2K3IPxpQ" justify="center"/>
+  </css:Block>
+</xmi:XMI>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:css="http:///schemas/css/_IuGyQCr5EeiprYbLDqgsFA/9" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/css/_IuGyQCr5EeiprYbLDqgsFA/9 css.profile.uml#_IuGyQSr5EeiprYbLDqgsFA">
+  <uml:Model xmi:id="_HchioCvKEeiprYbLDqgsFA" name="css">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_HiVPsCvKEeiprYbLDqgsFA">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_KVJVkCvKEeiprYbLDqgsFA" name="Title"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_J7hUoCvKEeiprYbLDqgsFA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_J7hUoivKEeiprYbLDqgsFA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_J7hUoyvKEeiprYbLDqgsFA" key="Version" value="0.0.10"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_J7hUpCvKEeiprYbLDqgsFA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_J7hUpSvKEeiprYbLDqgsFA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_J7hUpivKEeiprYbLDqgsFA" key="Date" value="2018-03-18"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_J7hUpyvKEeiprYbLDqgsFA" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_J7hUoSvKEeiprYbLDqgsFA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="css.profile.uml#_IuGyQSr5EeiprYbLDqgsFA"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="css.profile.uml#_hakwkCPpEeibvcGHFL70Mg"/>
+    </profileApplication>
+  </uml:Model>
+  <css:Text xmi:id="_S2RpICvKEeiprYbLDqgsFA" base_Class="_KVJVkCvKEeiprYbLDqgsFA" style="Bold"/>
+</xmi:XMI>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:css="http:///schemas/css/_faVFQMucEeipn5oiYGENIQ/27" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/css/_faVFQMucEeipn5oiYGENIQ/27 /tcc/css.profile.uml#_fadoIMucEeipn5oiYGENIQ">
+  <uml:Model xmi:id="_L-TCgOBlEeiN87BuOAZv4A" name="lista-de-artigos">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_MQkeQOBlEeiN87BuOAZv4A">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_iWvEIOBlEeiN87BuOAZv4A" name="Blog"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_vbtWUOBlEeiN87BuOAZv4A" name="BlogTitle"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_LLl9wOBmEeiN87BuOAZv4A" name="BlogArticles"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_XUZioOBmEeiN87BuOAZv4A" name="BlogArticle"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_MPuwwOBlEeiN87BuOAZv4A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MQJngOBlEeiN87BuOAZv4A" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MQJngeBlEeiN87BuOAZv4A" key="Version" value="0.0.28"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MQJnguBlEeiN87BuOAZv4A" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MQJng-BlEeiN87BuOAZv4A" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MQJnhOBlEeiN87BuOAZv4A" key="Date" value="2018-10-09"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MQJnheBlEeiN87BuOAZv4A" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MP36sOBlEeiN87BuOAZv4A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="/tcc/css.profile.uml#_fadoIMucEeipn5oiYGENIQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="/tcc/css.profile.uml#_hakwkCPpEeibvcGHFL70Mg"/>
+    </profileApplication>
+  </uml:Model>
+  <css:Block xmi:id="_k6LRQOBlEeiN87BuOAZv4A" base_Class="_iWvEIOBlEeiN87BuOAZv4A">
+    <background xmi:type="css:Background" xmi:id="_ozBLEOBlEeiN87BuOAZv4A">
+      <image>../image/texture.jpg</image>
+    </background>
+  </css:Block>
+  <css:Text xmi:id="_ysfxoOBlEeiN87BuOAZv4A" base_Class="_vbtWUOBlEeiN87BuOAZv4A">
+    <color xmi:type="css:Color" xmi:id="_0NN9gOBlEeiN87BuOAZv4A" x="255" y="170" z="130" case="rgb"/>
+  </css:Text>
+  <css:Block xmi:id="_TLFj4OBmEeiN87BuOAZv4A" base_Class="_LLl9wOBmEeiN87BuOAZv4A">
+    <flex xmi:type="css:Flex" xmi:id="_Ufz7IOBmEeiN87BuOAZv4A" justify="between" items="stretch"/>
+  </css:Block>
+  <css:Block xmi:id="_bF-W0OBmEeiN87BuOAZv4A" base_Class="_XUZioOBmEeiN87BuOAZv4A">
+    <color xmi:type="css:Color" xmi:id="_IXjTYOBnEeiN87BuOAZv4A" x="fff" case="hexa"/>
+    <border xmi:type="css:Border" xmi:id="_huaqcOBmEeiN87BuOAZv4A">
+      <width xmi:type="css:Side" xmi:id="_ikuAUOBmEeiN87BuOAZv4A">
+        <top xmi:type="css:Value" xmi:id="_j0GkkOBmEeiN87BuOAZv4A" number="5.0" unity="px"/>
+        <left xmi:type="css:Value" xmi:id="_j6JiMOBmEeiN87BuOAZv4A" number="5.0" unity="px"/>
+        <right xmi:type="css:Value" xmi:id="_kNNoIOBmEeiN87BuOAZv4A" number="5.0" unity="px"/>
+        <bottom xmi:type="css:Value" xmi:id="_kThEcOBmEeiN87BuOAZv4A" number="5.0" unity="px"/>
+      </width>
+      <style xmi:type="css:Style" xmi:id="_FLRkoOBnEeiN87BuOAZv4A" case="solid"/>
+      <color xmi:type="css:Color" xmi:id="_Gt6cEOBnEeiN87BuOAZv4A" x="fff" case="hexa"/>
+    </border>
+    <margin xmi:type="css:Side" xmi:id="_cISvcOBmEeiN87BuOAZv4A">
+      <top xmi:type="css:Value" xmi:id="_caJUcOBmEeiN87BuOAZv4A" number="25.0" unity="px"/>
+    </margin>
+  </css:Block>
+</xmi:XMI>

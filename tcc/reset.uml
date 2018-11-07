@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:css="http:///schemas/css/_faVFQMucEeipn5oiYGENIQ/27" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/css/_faVFQMucEeipn5oiYGENIQ/27 /tcc/css.profile.uml#_fadoIMucEeipn5oiYGENIQ">
+  <uml:Model xmi:id="_omx0ALYiEeiH_59IukoaOg" name="reset">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_ouFV4LYiEeiH_59IukoaOg">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_pH3H0LYiEeiH_59IukoaOg" name="i"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_sNOkkLaWEeiCucsoIHG39A" name="html"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_uoe8sLavEeiCucsoIHG39A" name="bold"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_29p34LavEeiCucsoIHG39A" name="t1"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HWAmYLawEeiCucsoIHG39A" name="t2"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_MDisgLawEeiCucsoIHG39A" name="t3"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_TZHL4LawEeiCucsoIHG39A" name="t4"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_YVPHoLawEeiCucsoIHG39A" name="t5"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_cRIVcLawEeiCucsoIHG39A" name="t6"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tlnVALawEeiCucsoIHG39A" name="normal"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_6WiCwLawEeiCucsoIHG39A" name="link"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_seVR8LayEeiCucsoIHG39A" name="button"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_VhTgELazEeiCucsoIHG39A" name="input"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1upKQLazEeiCucsoIHG39A" name="select"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_UXzr8La0EeiCucsoIHG39A" name="string"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rDWPwLa0EeiCucsoIHG39A" name="text"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_QZ-8ALYmEeiH_59IukoaOg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ia9ksMucEeipn5oiYGENIQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ia9kscucEeipn5oiYGENIQ" key="Version" value="0.0.28"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ia9kssucEeipn5oiYGENIQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ia9ks8ucEeipn5oiYGENIQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ia9ktMucEeipn5oiYGENIQ" key="Date" value="2018-10-09"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ia9ktcucEeipn5oiYGENIQ" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QZ-8AbYmEeiH_59IukoaOg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="/tcc/css.profile.uml#_fadoIMucEeipn5oiYGENIQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="/tcc/css.profile.uml#_hakwkCPpEeibvcGHFL70Mg"/>
+    </profileApplication>
+  </uml:Model>
+  <css:Block xmi:id="_-exM0LaXEeiCucsoIHG39A" base_Class="_sNOkkLaWEeiCucsoIHG39A">
+    <tags>html</tags>
+    <size xmi:type="css:Value" xmi:id="_W3K7ELaYEeiCucsoIHG39A" number="10.0" unity="px"/>
+    <font xmi:type="css:Font" xmi:id="_aIlogLaYEeiCucsoIHG39A" family="Trebuchet MS">
+      <size xmi:type="css:Value" xmi:id="_DcczwMJJEeiU-J2K3IPxpQ" number="10.0" unity="px"/>
+    </font>
+    <overflow xmi:type="css:Overflow" xmi:id="__HcWYLaXEeiCucsoIHG39A" y="scroll"/>
+  </css:Block>
+  <css:Block xmi:id="_e9p6ALaYEeiCucsoIHG39A" base_Class="_pH3H0LYiEeiH_59IukoaOg" display="flex" box="border">
+    <tags>aside</tags>
+    <tags>article</tags>
+    <tags>body</tags>
+    <tags>div</tags>
+    <tags>header</tags>
+    <tags>footer</tags>
+    <tags>fieldset</tags>
+    <tags>form</tags>
+    <tags>figure</tags>
+    <tags>section</tags>
+    <tags>ol</tags>
+    <tags>nav</tags>
+    <tags>li</tags>
+    <tags>main</tags>
+    <tags>ul</tags>
+    <dimension xmi:type="css:Measure" xmi:id="_sZDIILaYEeiCucsoIHG39A">
+      <Ini xmi:type="css:Dimension" xmi:id="_skBCALaYEeiCucsoIHG39A">
+        <width xmi:type="css:Value" xmi:id="_tfqx8LaYEeiCucsoIHG39A" number="100.0" unity="percent"/>
+      </Ini>
+    </dimension>
+    <border xmi:type="css:Border" xmi:id="_wccFELaYEeiCucsoIHG39A">
+      <width xmi:type="css:Side" xmi:id="_AXylYMJIEeiU-J2K3IPxpQ">
+        <top xmi:type="css:Value" xmi:id="_DUN6QMJIEeiU-J2K3IPxpQ" unity="px"/>
+        <left xmi:type="css:Value" xmi:id="_DX3EIMJIEeiU-J2K3IPxpQ" unity="px"/>
+        <right xmi:type="css:Value" xmi:id="_EKv5oMJIEeiU-J2K3IPxpQ" unity="px"/>
+        <bottom xmi:type="css:Value" xmi:id="_D4x_4MJIEeiU-J2K3IPxpQ" unity="px"/>
+      </width>
+    </border>
+    <margin xmi:type="css:Side" xmi:id="_Be8j0LaZEeiCucsoIHG39A">
+      <top xmi:type="css:Value" xmi:id="_BquWALaZEeiCucsoIHG39A" unity="px"/>
+      <left xmi:type="css:Value" xmi:id="_BwHMULaZEeiCucsoIHG39A" unity="px"/>
+      <right xmi:type="css:Value" xmi:id="_B1Ek0LaZEeiCucsoIHG39A" unity="px"/>
+      <bottom xmi:type="css:Value" xmi:id="_B7RTcLaZEeiCucsoIHG39A" unity="px"/>
+    </margin>
+    <position xmi:type="css:Position" xmi:id="_PGglsLaZEeiCucsoIHG39A" case="relative"/>
+    <padding xmi:type="css:Side" xmi:id="_ffajQLaYEeiCucsoIHG39A">
+      <top xmi:type="css:Value" xmi:id="_fqGJQLaYEeiCucsoIHG39A" unity="px"/>
+      <left xmi:type="css:Value" xmi:id="_fuh9ULaYEeiCucsoIHG39A" unity="px"/>
+      <right xmi:type="css:Value" xmi:id="_fzfV0LaYEeiCucsoIHG39A" unity="px"/>
+      <bottom xmi:type="css:Value" xmi:id="_f44MILaYEeiCucsoIHG39A" unity="px"/>
+    </padding>
+    <flex xmi:type="css:Flex" xmi:id="_kYiOULaYEeiCucsoIHG39A" wrap="wrap" items="start" content="start"/>
+  </css:Block>
+  <css:Text xmi:id="_xM72cLavEeiCucsoIHG39A" base_Class="_uoe8sLavEeiCucsoIHG39A">
+    <tags>h1</tags>
+    <tags>h2</tags>
+    <tags>h3</tags>
+    <tags>h4</tags>
+    <tags>h5</tags>
+    <tags>h6</tags>
+    <tags>span</tags>
+    <tags>th</tags>
+    <font xmi:type="css:Font" xmi:id="_y5XjELavEeiCucsoIHG39A" weight="600"/>
+  </css:Text>
+  <css:Text xmi:id="_5L1msLavEeiCucsoIHG39A" base_Class="_29p34LavEeiCucsoIHG39A">
+    <tags>h1</tags>
+    <size xmi:type="css:Value" xmi:id="_DuJH0LawEeiCucsoIHG39A" number="3.0" unity="rem"/>
+  </css:Text>
+  <css:Text xmi:id="_JJjAkLawEeiCucsoIHG39A" base_Class="_HWAmYLawEeiCucsoIHG39A">
+    <tags>h2</tags>
+    <size xmi:type="css:Value" xmi:id="_JrfQALawEeiCucsoIHG39A" number="2.8" unity="rem"/>
+  </css:Text>
+  <css:Text xmi:id="_Q7bogLawEeiCucsoIHG39A" base_Class="_MDisgLawEeiCucsoIHG39A">
+    <tags>caption</tags>
+    <tags>h3</tags>
+    <tags>legend</tags>
+    <size xmi:type="css:Value" xmi:id="_R98OYLawEeiCucsoIHG39A" number="2.6" unity="rem"/>
+  </css:Text>
+  <css:Text xmi:id="_VQvb4LawEeiCucsoIHG39A" base_Class="_TZHL4LawEeiCucsoIHG39A">
+    <tags>h4</tags>
+    <size xmi:type="css:Value" xmi:id="_VxQvALawEeiCucsoIHG39A" number="2.4" unity="rem"/>
+  </css:Text>
+  <css:Text xmi:id="_Z0i-QLawEeiCucsoIHG39A" base_Class="_YVPHoLawEeiCucsoIHG39A">
+    <tags>h5</tags>
+    <size xmi:type="css:Value" xmi:id="_aOZBoLawEeiCucsoIHG39A" number="2.2" unity="rem"/>
+  </css:Text>
+  <css:Text xmi:id="_e9-WMLawEeiCucsoIHG39A" base_Class="_cRIVcLawEeiCucsoIHG39A">
+    <tags>h6</tags>
+    <size xmi:type="css:Value" xmi:id="_fgTnMLawEeiCucsoIHG39A" number="2.0" unity="rem"/>
+  </css:Text>
+  <css:Text xmi:id="_vfb9YLawEeiCucsoIHG39A" base_Class="_tlnVALawEeiCucsoIHG39A">
+    <tags>dfn</tags>
+    <font xmi:type="css:Font" xmi:id="_zclIYLawEeiCucsoIHG39A" style="normal"/>
+  </css:Text>
+  <css:Text xmi:id="_7m0l8LawEeiCucsoIHG39A" base_Class="_6WiCwLawEeiCucsoIHG39A">
+    <tags>a</tags>
+    <color xmi:type="css:Color" xmi:id="_-nW-wLawEeiCucsoIHG39A" case="inherit"/>
+    <decoration xmi:type="css:Decoration" xmi:id="_j4vKQMucEeipn5oiYGENIQ" case="none"/>
+  </css:Text>
+  <css:Element xmi:id="_0fOmQLayEeiCucsoIHG39A" cursor="pointer" base_Class="_seVR8LayEeiCucsoIHG39A">
+    <tags>input</tags>
+    <tags>button</tags>
+    <dimension xmi:type="css:Measure" xmi:id="_Luce4LazEeiCucsoIHG39A">
+      <Ini xmi:type="css:Dimension" xmi:id="_L6gk8LazEeiCucsoIHG39A">
+        <width xmi:type="css:Value" xmi:id="_QswzALazEeiCucsoIHG39A" number="150.0" unity="px"/>
+        <height xmi:type="css:Value" xmi:id="_Q5oxYLazEeiCucsoIHG39A" number="50.0" unity="px"/>
+      </Ini>
+    </dimension>
+    <outline xmi:type="css:Outline" xmi:id="_xNBkAMJKEeiU-J2K3IPxpQ">
+      <style xmi:type="css:Style" xmi:id="_y7DMEMJKEeiU-J2K3IPxpQ" case="none"/>
+    </outline>
+  </css:Element>
+  <css:Element xmi:id="_vuSxYLazEeiCucsoIHG39A" base_Class="_VhTgELazEeiCucsoIHG39A">
+    <tags>input</tags>
+    <tags>select</tags>
+    <dimension xmi:type="css:Measure" xmi:id="_y6H0MLazEeiCucsoIHG39A">
+      <Ini xmi:type="css:Dimension" xmi:id="_zFR7ULazEeiCucsoIHG39A">
+        <height xmi:type="css:Value" xmi:id="_zb1aILazEeiCucsoIHG39A" number="20.0" unity="px"/>
+      </Ini>
+    </dimension>
+  </css:Element>
+  <css:Element xmi:id="_LN2d0La0EeiCucsoIHG39A" cursor="pointer" base_Class="_1upKQLazEeiCucsoIHG39A">
+    <tags>input</tags>
+    <dimension xmi:type="css:Measure" xmi:id="_NvD2ULa0EeiCucsoIHG39A">
+      <Ini xmi:type="css:Dimension" xmi:id="_N8428La0EeiCucsoIHG39A">
+        <width xmi:type="css:Value" xmi:id="_PUMoILa0EeiCucsoIHG39A" number="20.0" unity="px"/>
+      </Ini>
+    </dimension>
+    <outline xmi:type="css:Outline" xmi:id="_S6VzMMJLEeiU-J2K3IPxpQ">
+      <style xmi:type="css:Style" xmi:id="_U6UG4MJLEeiU-J2K3IPxpQ" case="none"/>
+    </outline>
+  </css:Element>
+  <css:Element xmi:id="_VZ73ULa0EeiCucsoIHG39A" float="left" base_Class="_UXzr8La0EeiCucsoIHG39A">
+    <tags>input</tags>
+    <tags>textarea</tags>
+    <tags>select</tags>
+    <dimension xmi:type="css:Measure" xmi:id="_Yb7osLa0EeiCucsoIHG39A">
+      <Ini xmi:type="css:Dimension" xmi:id="_YpSIMLa0EeiCucsoIHG39A">
+        <width xmi:type="css:Value" xmi:id="_Y-mQ4La0EeiCucsoIHG39A" number="250.0" unity="px"/>
+      </Ini>
+    </dimension>
+    <outline xmi:type="css:Outline" xmi:id="_OpUp8MJLEeiU-J2K3IPxpQ">
+      <style xmi:type="css:Style" xmi:id="_PxE8MMJLEeiU-J2K3IPxpQ" case="none"/>
+    </outline>
+  </css:Element>
+  <css:Element xmi:id="_vkYyALa0EeiCucsoIHG39A" base_Class="_rDWPwLa0EeiCucsoIHG39A">
+    <tags>textarea</tags>
+    <dimension xmi:type="css:Measure" xmi:id="_wZXSMLa0EeiCucsoIHG39A">
+      <Ini xmi:type="css:Dimension" xmi:id="_wjCLkLa0EeiCucsoIHG39A">
+        <height xmi:type="css:Value" xmi:id="_ykyA4La0EeiCucsoIHG39A" number="100.0" unity="px"/>
+      </Ini>
+    </dimension>
+  </css:Element>
+</xmi:XMI>

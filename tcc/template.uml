@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:css="http:///schemas/css/_faVFQMucEeipn5oiYGENIQ/27" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/css/_faVFQMucEeipn5oiYGENIQ/27 /tcc/css.profile.uml#_fadoIMucEeipn5oiYGENIQ">
+  <uml:Model xmi:id="_LUWG0MJ6EeiU-J2K3IPxpQ" name="template">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_Li6uUMJ6EeiU-J2K3IPxpQ">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Nto5cMJ6EeiU-J2K3IPxpQ" name="Container"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aK9VwMJ6EeiU-J2K3IPxpQ" name="Icon"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_k-VYwMJ6EeiU-J2K3IPxpQ" name="Default"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tGADcMJ6EeiU-J2K3IPxpQ" name="Title"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_9co6sMJ6EeiU-J2K3IPxpQ" name="Paragraph"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_LhubgMJ6EeiU-J2K3IPxpQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_imqzgMueEeipn5oiYGENIQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_imqzgcueEeipn5oiYGENIQ" key="Version" value="0.0.28"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_imqzgsueEeipn5oiYGENIQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_imqzg8ueEeipn5oiYGENIQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_imqzhMueEeipn5oiYGENIQ" key="Date" value="2018-10-09"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_imqzhcueEeipn5oiYGENIQ" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LhubgcJ6EeiU-J2K3IPxpQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="/tcc/css.profile.uml#_fadoIMucEeipn5oiYGENIQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="/tcc/css.profile.uml#_hakwkCPpEeibvcGHFL70Mg"/>
+    </profileApplication>
+  </uml:Model>
+  <css:Block xmi:id="_Sdpr0MJ6EeiU-J2K3IPxpQ" base_Class="_Nto5cMJ6EeiU-J2K3IPxpQ">
+    <padding xmi:type="css:Side" xmi:id="_TPhNoMJ6EeiU-J2K3IPxpQ">
+      <top xmi:type="css:Value" xmi:id="_UDr1gMJ6EeiU-J2K3IPxpQ" number="50.0" unity="px"/>
+      <left xmi:type="css:Value" xmi:id="_UIpOAMJ6EeiU-J2K3IPxpQ" number="5.0" unity="percent"/>
+      <right xmi:type="css:Value" xmi:id="_UfY6EMJ6EeiU-J2K3IPxpQ" number="5.0" unity="percent"/>
+      <bottom xmi:type="css:Value" xmi:id="_U0LeUMJ6EeiU-J2K3IPxpQ" number="50.0" unity="px"/>
+    </padding>
+  </css:Block>
+  <css:Text xmi:id="_fMwbsMJ6EeiU-J2K3IPxpQ" align="center" base_Class="_aK9VwMJ6EeiU-J2K3IPxpQ">
+    <font xmi:type="css:Font" xmi:id="_i4iJ4MJ6EeiU-J2K3IPxpQ" family="Icon"/>
+  </css:Text>
+  <css:Text xmi:id="_ofYdoMJ6EeiU-J2K3IPxpQ" base_Class="_k-VYwMJ6EeiU-J2K3IPxpQ">
+    <tags>body</tags>
+    <size xmi:type="css:Value" xmi:id="_pvxugMJ6EeiU-J2K3IPxpQ" number="1.8" unity="rem"/>
+    <font xmi:type="css:Font" xmi:id="_rIyv4MJ6EeiU-J2K3IPxpQ" family="Inconsolata"/>
+  </css:Text>
+  <css:Element xmi:id="_wq6UoMJ6EeiU-J2K3IPxpQ" base_Class="_tGADcMJ6EeiU-J2K3IPxpQ">
+    <tags>h1</tags>
+    <color xmi:type="css:Color" xmi:id="_7YzasMJ6EeiU-J2K3IPxpQ" x="ac372c" case="hexa"/>
+    <margin xmi:type="css:Side" xmi:id="_xvewAMJ6EeiU-J2K3IPxpQ">
+      <top xmi:type="css:Value" xmi:id="_x_N1IMJ6EeiU-J2K3IPxpQ" unity="px"/>
+      <left xmi:type="css:Value" xmi:id="_yKX8QMJ6EeiU-J2K3IPxpQ" unity="px"/>
+      <right xmi:type="css:Value" xmi:id="_yZfWUMJ6EeiU-J2K3IPxpQ" unity="px"/>
+      <bottom xmi:type="css:Value" xmi:id="_yztNIMJ6EeiU-J2K3IPxpQ" unity="px"/>
+    </margin>
+  </css:Element>
+  <css:Element xmi:id="_FyH-8MJ7EeiU-J2K3IPxpQ" base_Class="_9co6sMJ6EeiU-J2K3IPxpQ">
+    <tags>p</tags>
+    <line xmi:type="css:Value" xmi:id="_NB0f0MJ7EeiU-J2K3IPxpQ" number="150.0" unity="percent"/>
+    <margin xmi:type="css:Side" xmi:id="_GqxeMMJ7EeiU-J2K3IPxpQ">
+      <top xmi:type="css:Value" xmi:id="_G9gM8MJ7EeiU-J2K3IPxpQ" number="50.0" unity="px"/>
+    </margin>
+  </css:Element>
+</xmi:XMI>
